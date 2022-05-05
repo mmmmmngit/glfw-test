@@ -10,7 +10,7 @@
         "-lglfw3",
         "-lopengl32",
         "-o",
-        "${workspaceFolder}/myprogram.exe"
+        "${workspaceFolder}/${fileBasenameNoExtension}.exe"
       ],
       "options": {
         "cwd": "${fileDirname}"
