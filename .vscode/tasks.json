@@ -9,12 +9,11 @@
         "${file}",
         "-lglfw3",
         "-lopengl32",
-        "-o",
-        "${fileDirname}/${fileBasenameNoExtension}.exe"
+        "-o${workspaceFolder}/build/${fileBasenameNoExtension}.exe",
       ],
       "options": {
         "cwd": "${fileDirname}"
-      },
+      }, 
       "problemMatcher": ["$gcc"],
       "group": {
         "kind": "build",
